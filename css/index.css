@@ -1,0 +1,919 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    flex-flow: row;
+}
+
+header p{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Avenir Next", sans-serif;
+    text-align: center;
+    padding: 13px;
+    /* letter-spacing: 1px; */
+}
+
+header i{
+    margin: 0px 5px ;
+}
+
+.nav{
+    /* flex-flow: row; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* margin-top: ; */
+    width: 92%;
+    margin:22px auto;
+}
+
+.nav .search{
+    margin-top: 3px;
+}
+
+.nav .search input{
+    border: none;
+    outline: none;
+    margin-left: 17px;
+    font-family:"Avenir Next", sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.nav .search i{
+    margin-left: -25px;
+}
+
+.nav .semi-icon .icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.semi-icon{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 21px; */
+    
+}
+
+.icon1{
+    width: 65px;
+    height: 30px;
+}
+
+.icon2 svg{
+    margin-top: 47px;
+    margin-right: 46px;
+    width: 36px;
+    height: 30px 
+}
+
+.nav2{
+    box-shadow: -1px 1px 1px 0px black;
+    padding-bottom: 10px;
+    background-color:rgb(255,255,255);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.nav-java{
+    position: sticky;
+    top: 0px;
+
+}
+
+
+
+.nav2 ul{
+    display: flex;
+    list-style: none;
+    gap: 6px;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+.nav2 a{
+    color:   rgb(81, 78, 78);
+    text-decoration: none;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 14px;
+    padding: 10px 8px;
+    letter-spacing: 1px;
+    
+
+}
+
+.nav2 a:hover{
+    background-color: rgb(236, 230, 230);
+    border-radius: 7px;
+}
+
+.banner{
+    height: 500px;
+    /* border: 2px solid black; */
+    width: 95%;
+    margin: auto;
+    margin-top: 7px;
+    /* background-image: url('/image/karagiri_banner.webp');
+    background-size: cover;
+    background-position: center; */
+    margin-bottom: 10px;
+}
+
+.banner img{
+    height: 500px;
+    width: 100%;
+}
+
+.choise{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.choise h2{
+    text-align: center;
+    font-family:  "Avenir Next", sans-serif;
+    font-size: 28px;
+    font-weight: 540;
+    line-height: 30.8px;
+    margin-top: 85px;
+
+}
+
+.choise h5{
+    font-size: 15px;
+    font-family: "Avenir Next", sans-serif;
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.celebrity{
+    display: flex;
+    
+
+}
+
+.choise .celebrity .col{
+    width: 90%;
+    margin-top: 30px;
+    background-color: rgb(249,249,249);
+}
+
+.choise .celebrity .col img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.delet{
+    font-size: 12px;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 300;
+    color: rgb(170, 170, 170);
+    margin-left: 7px;
+}
+
+
+.price1{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Avenir Next", sans-serif;
+    line-height: 41px;
+}
+
+.off{
+    font-family: "Avenir Next", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(255, 0, 0);
+    margin-left: 11px;
+}
+
+.start1{
+    /* display: block; */
+    background-color: rgb(103,159,55);
+    font-size: 13px;
+    font-weight: 400;
+    font-family:  "Avenir Next", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 11px;
+    padding: 3px;
+    margin-top: -10px;
+}
+
+.start1 i{
+    margin-left: 4px;
+    /* width: 2px;
+    background-color: rgb(103,159,55); */
+}
+
+.count1{
+    font-size: 13px;
+    font-family:  "Avenir Next", sans-serif;
+    font-weight: 300;
+    color: rgb(120, 120, 120);
+    margin-left: 5px;
+}
+
+
+.col-button{
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+
+
+
+.col-button button{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(255,255,255);
+    color: rgb(190, 24, 81);
+    font-size: 14px;
+    font-family: "Avenir Next", sans-serif;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 6px;
+
+    
+}
+
+.yh{
+    width: 80%;
+    margin: auto;
+}
+
+.view-button{
+    width: 100%;
+}
+
+.view-button button{
+    margin-left: 456px;
+    margin-top: 56px;
+    padding: 10px 60px;
+    font-family:  "Avenir Next", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(38,38,38);
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+
+.launched{
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    background-image: url('../image/karagiri\ launched.webp');
+    background-position: center;
+    background-size: cover;
+    margin-top: 45px;
+
+}
+
+.title h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 545;
+    /* line-height: 30.8px; */
+    font-family: "Avenir Next", sans-serif;
+    margin: 50px 0px;
+}
+
+
+.value{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.value .picks{
+    width: 100%;
+}
+
+.value .picks img{
+    width: 100%;
+    border-radius: 7px;
+    
+}
+
+.value .picks p{
+    font-size: 17px;
+    font-family: "Avenir Next", sans-serif;
+    margin-top: 15px;
+    line-height: 21px;
+    color: rgb(35, 82, 124);
+    text-align: center;
+}
+
+#p2{
+    margin-top: 24px;
+}
+
+.karagiri-video video{
+    width: 100%;
+   
+}
+
+.karagiri-video{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 90px;
+
+}
+
+.wedding h2{
+    text-align: center;
+    font-family:  "Avenir Next", sans-serif;
+    font-size: 28px;
+   font-weight: 400;
+   margin-top: 60px;
+   margin-bottom: 30px;
+}
+
+
+.wedding-picks{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 61px;
+    /* flex-wrap: wrap; */
+}
+
+.wedding-picks .sec{
+    width: 100%;
+}
+
+.wedding-picks img{
+    width: 100%;
+    margin: auto;
+}
+
+.wedding-picks a{
+    color: black;
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+.wedding-picks p{
+    margin: 20px 0px;
+}
+
+
+#button-1{
+    margin-top: 42px;
+}
+
+.title-ex{
+    width: 40%;
+    margin: auto;
+}
+
+.title-ex h2{
+    /* text-align: center; */
+    margin-left: 144px;
+    font-family:  "Avenir Next", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 43px;
+    margin-bottom: 29px;
+}
+
+
+.kr-explore{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+
+}
+
+.kr-explore .section{
+    width: 100%;
+    
+
+}
+
+.kr-explore .section img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.kr-explore .section a{
+    color: black;
+}
+
+.kr-explore .section p{
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 14px;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 200;
+
+}
+
+
+.featured h2{
+    text-align: center;
+    font-family:  "Avenir Next", sans-serif;
+    font-size:  28px;
+    font-weight: 500;
+    margin-top: 39px;
+    margin-bottom: 22px;
+
+}
+
+
+.featured1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 35px;
+   align-items: center;
+}
+
+
+.featured1 .colum{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 22px;
+    border-radius: 7px;
+    /* padding: 0px 10px; */
+    box-shadow: 5px 5px 20px 0px #0000001f;
+}
+
+.featured1 .ho{
+    padding: 20px 0px;
+}
+
+.featured1 .colum img{
+    width: 100%;
+    
+    
+    
+    
+    
+}
+
+
+.featured1 .ho1{
+    padding: 43px 0px;
+}
+
+.featured1 .ho2 img{
+    width: 70%;
+    margin:0px auto;
+    padding-left: 36px;
+
+}
+
+.featured1 .ho3{
+    padding: 40px 0px;
+}
+
+.featured1 .ho4{
+    padding: 29px 0px;
+}
+
+
+.featured4{
+    margin-bottom: 160px;
+}
+
+
+.cantainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 17px;
+}
+
+.cantainer .yo{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 6px 20px 0px #00000030;
+   
+}
+.main-reviews1{
+    height: 300px;
+    background-color: red;
+    background-image: url(../image/review1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-reviews2{
+    height: 300px;
+    background-color: red;
+    background-image: url(../image/review2.jpg);
+    background-position: center;
+    background-size: cover;
+}.main-reviews3{
+    height: 300px;
+    background-color: red;
+    background-image: url(../image/review6.jpg);
+    background-position: center;
+    background-size: cover;
+}.main-reviews4{
+    height: 300px;
+    background-color: red;
+    background-image: url(../image/review7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cantainer .yo .main-reviews{
+    width: 100%;
+    /* max-width: 300px; */
+    
+
+    
+}
+#yohoney{
+    height: 462px;
+}
+
+.cantainer .yo .comment{
+    width: 100%;
+}
+
+
+.cantainer .yo .main-reviews img{
+    width: 100%;
+    margin-bottom: 39px;
+   
+    
+    
+}
+
+.cantainer .yo .comment span{
+    margin-left: 78px;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 20px;
+    /* font-weight: 100; */
+    
+}
+
+.cantainer .yo .comment p{
+    font-family: "Avenir Next", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+
+}
+
+
+.cantainer .yo .star3{
+    width: 50%;
+    position: absolute;  
+    /* top: 280; */
+    right: 53px;
+    bottom: 140px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px rgba(0,0,0,.06),0 4px 20px rgba(0,0,0,.08);
+}
+.cantainer .yo .star3 i{
+    font-size: 20px;
+}
+
+
+.reviews-img{
+    /* height: 323px; */
+    object-fit: cover;
+    top: 0;
+    position: relative;
+}
+
+#problem2{
+    height: 317px;
+}
+
+
+#name-p{
+    margin-left: 72px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+#name-p2{
+    margin-left: 64px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+#problem3{
+    height: 294px;
+}
+#pp{
+    margin-left: 84px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 20px;  
+}
+#pp p{
+padding-top: 20px;}
+
+#name-p3{
+    margin-left: 84px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+footer{
+    background-color: rgb(79,70,79);
+    height:900px;
+    margin-top: 215px;
+    position: relative;
+}
+
+.logo ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 40px;
+    position: absolute;
+    top: -75px;
+    width: 80%;
+    margin: 0px 110px;
+    
+}
+
+.logo .logo1{
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    outline: 1px solid rgb(134,66,102);
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.logo .logo1 img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.logo .logo1 p{
+    font-family:  "Avenir Next", sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main-p{
+    margin-top: 19px;
+}
+
+
+.main-footer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.main-footer h2{
+    font-size: 18px;
+    font-family: "Avenir Next", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.main-footer .main-list{
+    width: 100%;
+    margin-top: 183px;
+}
+
+
+.main-footer .main-list ul{
+    list-style: none;
+}
+
+.main-footer .main-list ul li{
+    margin-top: 10px;
+}
+
+
+.main-footer .main-list ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 50;
+    line-height: 20px;
+    letter-spacing: 1px;
+   
+}
+
+.main-list p{
+    color: rgb(255, 255, 255);
+    font-family:  "Avenir Next", sans-serif;
+    line-height: 25px;
+
+
+}
+
+.main-list h4{
+    color: rgb(255, 255, 255);
+    font-family:  "Avenir Next", sans-serif;
+    font-weight: 500;
+
+}
+
+
+.main-list input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: rgb(79,70,79);
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+    padding: 9px 0px
+    
+}
+
+.list-input{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 80%;
+
+}
+
+.main-list i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 32px;
+    
+    
+}
+
+.icon{
+    width: 90%;
+    /* margin: auto; */
+    /* border: 2px solid black; */
+    margin-left: -18px;
+    margin-top: 51px;
+
+}
+
+
+.icon i{
+    font-size: 20px;
+    text-align: center;
+}
+
+.copy-right{
+    width: 90%;
+    margin: 0px auto;
+    padding: 25px;
+    background-color: rgb(79,70,79);
+    border-top:2px solid rgb(173,169,173);
+}
+
+
+.copy-right p{
+    color: rgb(173,169,173);
+    font-family: "Avenir Next", sans-serif;
+    font-size: 14px;
+}
+
+.h{
+    background-color: rgb(79,70,79);
+}
+
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.review1{
+    height: 600px;
+    width: 300px;
+    border-radius: 10px 10px;
+    box-shadow: 4px 4px 20px 0px #00000069;
+    border: 1px solid;
+
+
+}
+
+.review2{
+    height: 600px;
+    width: 300px;
+    box-shadow: 4px 4px 20px 0px #00000069;
+    border-radius: 10px 10px;
+    border: 1px solid;
+
+}
+
+.review3{
+    height: 600px;
+    width: 300px;
+    box-shadow: 4px 4px 20px 0px #00000069;
+    border-radius: 10px 10px;
+    border: 1px solid;
+
+
+}
+
+.review4{
+    height: 600px;
+    width: 300px;
+    box-shadow: 4px 4px 20px 0px #00000069;
+    border-radius: 10px 10px;
+    border: 1px solid;
+
+}
+.reviews>div>img{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+.stars{
+    color: rgb(220, 220, 56);
+    font-size: 20px;
+    width: 140px;
+    align-items: center;
+    margin-left: 72px;
+    margin-top: -20px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 10px 10px;
+    box-shadow: 4px 4px 20px 0px #00000047;
+}
+.reviews h6{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.reviews p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.reviews>div:hover{
+    margin-top: -15px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+/* .review1:hover{
+    margin-top: -15px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.review2:hover{
+    margin-top: -15px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.review3:hover{
+    margin-top: -15px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.review4:hover{
+    margin-top: -15px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+} */
+
